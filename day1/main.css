@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    background: #23424a;
+    color: #ffffff;
+
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 2em;
+}
+
+.intro-content {
+    width: 50%;
+}
