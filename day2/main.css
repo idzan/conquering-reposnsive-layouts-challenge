@@ -7,11 +7,14 @@ body {
     font-family: sans-serif;
 }
 
+.wrapper {
+    background: #23424a;
+    width: 100%;
+}
+
 .container {
     margin: 0 auto;
-    background: #23424a;
     color: #ffffff;
-    width: 100%;
     padding: 50px 2em;
 }
 
@@ -25,8 +28,7 @@ body {
     width: 50%;
 }
 
-body > p,
-h2 {
+.content {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
