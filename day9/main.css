@@ -26,22 +26,23 @@ img {
 
 .hero-text {
     color: white;
-    padding: 100px 0;
-    width: 60%;
+    /* padding: 100px 0; */
+    width: 50%;
 }
 
 .hero-img {
-    align-items: flex-start;
-    width: 30%;
+    align-self: flex-start;
+    width: 40%;
 }
 
 
 .hero-text p {
+    align-self: flex-start;
     padding-bottom: 3em;
     color: white;
 }
 
-.hero-text h1 {
+.hero-text  h1 {
     margin-top: 0;
     font-weight: 900;
     font-size: 48px;
