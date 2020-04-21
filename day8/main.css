@@ -1,0 +1,93 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    /* font-size: 1.3rem; */
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1100px;
+}
+
+.hero {
+    width: 100%;
+    background: #23424a;
+}
+
+.intro {
+    color: white;
+    max-width: 750px;
+    padding: 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro > * {
+    width: 60%;
+}
+
+.intro p {
+    padding-bottom: 3em;
+    color: white;
+}
+
+.intro h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.button {
+    background: #38CFD9;
+    color: #072A2D;
+    padding: 1em;
+    border-radius: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.row {
+    display: flex;
+    /* gap: 1em; */
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.col {
+    text-align: center;
+    /* width: 100%; */
+}
+
+.col + .col {
+    margin-left: 1em;
+}
+
+.down {
+    background: #136C72;
+    color: #ffffff;
+
+}
+
+.down p  {
+    color: white;
+}
+
+.colored {
+    color: #87629a;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* h1 {
+    font-size: 3em;
+} */
+
+p {
+    font-size: 1em;
+    color: #3A3A3A;
+}
