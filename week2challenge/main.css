@@ -5,7 +5,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    font-size: 1.3rem;
 }
 
 img {
@@ -13,8 +12,84 @@ img {
     max-width: 100%;
 }
 
+p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
 .container {
     margin: 0 auto;
     width: 80%;
-    max-width: 1100px;
+    max-width: 1128px;
+}
+
+.row {
+    display: flex;
+    /* gap: 1em; */
+    justify-content: space-between;
+}
+
+.col {
+    width: 50%;
+}
+
+.col + .col {
+    margin-left: 2em;
+}
+
+.hero {
+    background: #f3eed9;
+    margin: 0 auto;
+    min-height: 660px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: #824936;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.hero .uppercase {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.quality, .custom, .created {
+    padding: 6rem 0;
+}
+
+.quality p {
+    color: #222c2a;
+}
+
+.image {
+    align-self: flex-start;
+    width: 50%;
+}
+
+.custom {
+    background: #222c2a;
+    color: white;
+}
+
+.created {
+    background: #824936;
+    color: white;
+}
+
+.accent {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.brown {
+    text-align: center;
+    color: #824936;
 }
