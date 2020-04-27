@@ -19,8 +19,9 @@ p {
 
 .container {
     margin: 0 auto;
+    width: min(80%, 1128px);/* 
     width: 80%;
-    max-width: 1128px;
+    max-width: 1128px; */
 }
 
 .row {
