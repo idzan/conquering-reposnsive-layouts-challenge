@@ -24,18 +24,22 @@ p {
     max-width: 1128px; */
 }
 
-.row {
-    display: flex;
-    /* gap: 1em; */
-    justify-content: space-between;
-}
+@media (min-width: 600px) {
 
-.col {
-    width: 50%;
-}
+    .row {
+        display: flex;
+        /* gap: 1em; */
+        justify-content: space-between;
+    }
 
-.col + .col {
-    margin-left: 2em;
+    .col {
+        width: 100%;
+    }
+
+    .col + .col {
+        margin-left: 2em;
+    }
+
 }
 
 .hero {
